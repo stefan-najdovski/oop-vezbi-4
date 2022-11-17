@@ -29,4 +29,21 @@ public class Avtomobil {
         return "Marka: " + this.marka + " Model: "+ this.model + " Boja "+ this.boja + " pominati Kilometri "+
                 this.pominatiKilometri;
     }
+
+    // nema potreba od setteri ko imame dinamicen konstruktor
+    public String getMarka() {
+        return marka;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getBoja() {
+        return boja;
+    }
+
+    public float getPominatiKilometri() {
+        return pominatiKilometri;
+    }
 }
