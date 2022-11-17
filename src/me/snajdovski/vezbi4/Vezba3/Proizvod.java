@@ -26,7 +26,7 @@ public class Proizvod {
         return this.proizvoditel;
     }
 
-    public int getCena() {
+    public float getCena() {
         return cena;
     }
 

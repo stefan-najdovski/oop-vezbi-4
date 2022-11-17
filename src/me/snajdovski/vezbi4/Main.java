@@ -3,6 +3,9 @@ package me.snajdovski.vezbi4;
 import me.snajdovski.vezbi4.Vezba1.Covek;
 import me.snajdovski.vezbi4.Vezba2.Restoran;
 import me.snajdovski.vezbi4.Vezba3.Proizvod;
+import me.snajdovski.vezbi4.Vezba4.Avtomobil;
+
+import javax.lang.model.util.AbstractAnnotationValueVisitor6;
 
 public class Main {
     public static void main(String[] args) {
@@ -30,5 +33,9 @@ public class Main {
         //Proizvod
         Proizvod smoki = new Proizvod();
         System.out.println(smoki);
+
+        //Avtomobil
+        Avtomobil a1 = new Avtomobil("Tesla","S","Crvena",10_000F);
+        System.out.println(a1);
     }
 }
